@@ -1,0 +1,28 @@
+.mainCanvas {
+    background-color: white;
+    border: 1px solid #c5c5c5;    
+}
+.imageZoomer {
+    position: relative;
+}
+.zoomedCanvas {
+    position: absolute;
+    top: 8px;
+    right: 500px;
+}
+.imagePickerList {
+    list-style: none;
+    margin: 0.1em;
+}
+.imagePickerList li {
+    background-color: white;
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0.1em;
+}
+.imagePickerList li img {
+    height: 80px;
+    padding: 0.1em;
+    width: 80px;
+}
